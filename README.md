@@ -1,3 +1,7 @@
+# TL;DR
+
+karabiner_elementsのkinesis用のキー配置入れ替えconfig file。
+
 # USAGE
 
 1. `~/.config/karabiner/assets/complex_modifications`に`personal_kinesis.json`を配置
