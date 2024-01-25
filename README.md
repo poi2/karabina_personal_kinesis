@@ -1,29 +1,18 @@
 # TL;DR
 
-karabiner_elementsのkinesis用のキー配置入れ替えconfig file。
+Config file for karabiner_elements to swap keys for kinesis.
 
 # USAGE
 
-1. `~/.config/karabiner/assets/complex_modifications`に`personal_kinesis.json`を配置
-2. karabiner_elementsの`Preferences`の`complex_modifications`タブに移動
-3. `Add rule`ボタンからkinesis用の設定を`Enable`にする
+1. Put `personal_kinesis.json` to `~/.config/karabiner/assets/complex_modifications`.
+2. Move to `complex_modifications` tab in `Preferences` of karabiner_elements.
+3. Add rules you need.
 
-# 現行のルール
+# Rules
 
-* PageDownを押すと右のタブに、Endを押すと左のタブに移動する  
-  PageDown, Endは使用頻度が低いので、タブの移動に利用
-* non_us_backslashを~に変更する  
-  バックスラッシュがPの横の他にXの下にもあるが、Xの下のキーは`§`キーになっている  
-  使用頻度は低いが`~`として利用
-
-# TODO
-
-* DeletをFNに変更する  
-  単一キーの変更は設定が容易さからkarabiner_elements側の機能で補っている  
-  タイプミス防止と特殊操作のためにFNに変更
-* Homeをescapeに変更する  
-  単一キーの変更は設定が容易さからkarabiner_elements側の機能で補っている  
-  使用頻度は高いが、kinesisのescapeは押しにくいので親指で押すようにする
-* PageUpを何かに変更する  
-  研究中
-
+- non_us_backslash to ~
+- Home to escape + japanese_eisuu
+- End to Ctrl + Alt + LeftArrow
+  - Move to left tab
+- PageDown to Ctrl + Alt + RightArrow
+  - Move to right tab
